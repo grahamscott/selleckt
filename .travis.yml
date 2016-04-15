@@ -14,9 +14,7 @@ deploy:
   provider: releases
   api_key:
     secure: Sv/YyDLDyutJTEUpApgj+T23+vaTZOgWtOZv49+lzSvc3k/nm00WxCAa7pshWkm2TkJdBU6YfrU4/pKTYBiN8Zz8rvX0d9KKQlBB3Kdp7GdIDq1X15cQ5WB4Jq9sNxKcuoodHdEMlkFRJ/7/KJ615mJktpyNALYYBVxTwzFL5Ts=
-  file:
-  - "dist/selleckt.js"
-  - "dist/selleckt-legacy.js"
+  file: "dist/selleckt.js"
   on:
     repo: grahamscott/selleckt
     tags: true
