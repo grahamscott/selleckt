@@ -3,8 +3,7 @@
     "devel": false,
     "browser": true,
     "browserify": true,
-    "strict": true,
-    "globalstrict": true,
+    "strict": "global",
     "forin": true,
     "immed": true,
     "newcap": true,
@@ -23,7 +22,6 @@
     "maxlen": 140,
     "quotmark": "single",
     "indent": 4,
-
     "predef": [
         "require"
     ]
